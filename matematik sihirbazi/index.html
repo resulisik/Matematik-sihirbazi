@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matematik Sihirbazı</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Matematik Sihirbazı</h1>
+    <p id="instruction">Tuttuğunuz bir sayıya 3 ekleyin.</p>
+    
+    <!-- Kapsayıcı -->
+    <div class="kapsayici">
+      <button id="next-step" class="btn devam-et">Devam Et</button>
+      <input id="final-result" type="number" placeholder="Sonucunuzu girin" style="display: none;">
+      <button id="calculate" class="btn tahmin-kutusu" style="display: none;">Tahmin Et</button>
+    </div>
+    
+    <p id="result"></p>
+    <button id="dark-mode-toggle" class="btn">🌙 Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
