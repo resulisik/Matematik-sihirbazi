@@ -1,6 +1,6 @@
 # Matematik Sihirbazı Projesi
 
-Bu proje, kullanıcıların matematiksel işlemler yaparak gizli bir sayıyı tahmin eden bir uygulamadır. Kullanıcılar, adımları takip ederek başlangıçta tuttukları sayıyı bulmaya çalışırlar. Uygulama, kullanıcıların sayıyı 2 ile çarpmak, 2 çıkarmak, 5 ile çarpmak ve son olarak 7 çıkarmak gibi basit işlemleri yapmalarını sağlar. Sonuç olarak, başlangıç sayısının ne olduğunu tahmin eder.
+Bu proje, kullanıcıların matematiksel işlemler yaparak gizli bir sayıyı tahmin eden bir uygulamadır. Kullanıcılar, adımları takip ederek başlangıçta tuttukları sayıyı bulmaya çalışırlar. Uygulama, kullanıcıların sayıyı 3eklemek, 2 ile çarpmak, 4 çıkarmak, 2 ile bölmek ve son olarak başlangıçta tutuğumuz sayıyla çıkarmak gibi basit işlemleri yapmalarını sağlar. Sonuç olarak, başlangıç sayısının ne olduğunu tahmin eder.
 
 ## Özellikler
 
