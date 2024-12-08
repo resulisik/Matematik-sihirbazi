@@ -12,7 +12,8 @@ Bu proje, kullanıcıların matematiksel işlemler yaparak gizli bir sayıyı ta
 
 ## Trello Panosu
 
-Proje ilerlemesini ve görevleri takip etmek için Trello panomuza göz atabilirsiniz: [Trello Linki]([https://trello.com/b/xxxxxx](https://trello.com/b/OznQVokF/matematik-sihirbazi))
+Proje ilerlemesini ve görevleri takip etmek için Trello panomuza göz atabilirsiniz: [Trello Linki](
+https://trello.com/b/xxxxxx](https://trello.com/b/OznQVokF/matematik-sihirbazi
 
 ## Kurulum
 
