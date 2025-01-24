@@ -7,19 +7,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Konfeti Canvas -->
+  <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; pointer-events: none; display: none;"></canvas>
+
+  <!-- Hoş geldin mesajı -->
+  <p id="welcome-message" style="display: none;">
+    Hoş geldin, <span id="username-display"></span>!
+  </p>
+
+  <!-- Ana container -->
   <div class="container">
-    <h1>Matematik Sihirbazı</h1>
+    <h1>Hadi Sihirbaz Olalım</h1>
     <p id="instruction">Tuttuğunuz bir sayıya 3 ekleyin.</p>
-    
+
     <!-- Kapsayıcı -->
     <div class="kapsayici">
       <button id="next-step" class="btn devam-et">Devam Et</button>
       <input id="final-result" type="number" placeholder="Sonucunuzu girin" style="display: none;">
       <button id="calculate" class="btn tahmin-kutusu" style="display: none;">Tahmin Et</button>
     </div>
-    
+
     <p id="result"></p>
     <button id="dark-mode-toggle" class="btn">🌙 Dark Mode</button>
+  </div>
+
+  <!-- Kullanıcı adı modal -->
+  <div id="username-modal" class="modal">
+    <div class="modal-content">
+      <h2>Lütfen Kullanıcı Adınızı Girin</h2>
+      <input type="text" id="username-input" placeholder="Kullanıcı adınızı girin">
+      <button id="username-submit" class="btn">Devam Et</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
